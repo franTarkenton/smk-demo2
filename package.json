@@ -1,0 +1,14 @@
+{
+    "name": "silly",
+    "version": "0.0.1",
+    "description": "a silly map",
+    "author": "fran tark",
+    "dependencies": {
+        "@bcgov/smk": "1.1.12",
+        "@bcgov/smk-cli": "^1.1.1",
+        "http-server": "^0.12.3"
+    },
+    "scripts": {
+        "view": "http-server -o -c-1"
+    }
+}
